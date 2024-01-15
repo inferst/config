@@ -11,12 +11,11 @@ DoAction(action)
 
 Numpad0::DoAction("Switch to Pause Scene")
 Numpad1::DoAction("Switch to Desktop Scene")
-Numpad2::DoAction("Switch to Chat with Desktop Scene")
-Numpad3::DoAction("Switch to Chat Scene")
-Numpad4::DoAction("Switch to Camera Scene")
-
+Numpad2::DoAction("Switch to Chat Scene")
+Numpad3::DoAction("Switch to Camera Scene")
 Numpad9::DoAction("Switch to End Scene")
 
-NumpadDot::DoAction("Toggle Camera Blur")
+NumpadDot::DoAction("Toggle Desktop Blur")
+
 NumpadAdd::DoAction("Browser Volume Up")
 NumpadSub::DoAction("Browser Volume Down")
