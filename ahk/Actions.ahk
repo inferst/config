@@ -19,3 +19,17 @@ NumpadDot::DoAction("Toggle Desktop Blur")
 
 NumpadAdd::DoAction("Browser Volume Up")
 NumpadSub::DoAction("Browser Volume Down")
+
+#=::resizeWindow(WinGetID("A")) ; [Win]+[=]
+
+resizeWindow(window) {
+    WinGetPos , , &W, &H, window
+    width := InputBox("Width: " W "px", "Resize", "w100 h100", W - Mod(W, 4))
+    if (width.Result = "OK") {
+        height := InputBox("Height: " H "px", "Resize", "w100 h100", H - Mod(H, 4))
+        if (height.Result = "OK") {
+            WinMove , , width.Value, height.Value, window
+        }
+    }
+    return
+}
