@@ -20,6 +20,8 @@ NumpadDot::DoAction("Toggle Desktop Blur")
 NumpadAdd::DoAction("Browser Volume Up")
 NumpadSub::DoAction("Browser Volume Down")
 
+NumpadEnter::DoAction("Change Voice")
+
 #=::resizeWindow(WinGetID("A")) ; [Win]+[=]
 
 resizeWindow(window) {
