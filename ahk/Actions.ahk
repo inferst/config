@@ -11,8 +11,10 @@ DoAction(action)
 
 Numpad0::DoAction("Switch to Pause Scene")
 Numpad1::DoAction("Switch to Desktop Scene")
-Numpad2::DoAction("Switch to Chat Scene")
+Numpad2::DoAction("Switch to Desktop Full Scene")
 Numpad3::DoAction("Switch to Camera Scene")
+Numpad4::DoAction("Switch to Game Scene")
+Numpad5::DoAction("Switch to Game 4:3 Scene")
 Numpad9::DoAction("Switch to End Scene")
 
 NumpadDot::DoAction("Toggle Desktop Blur")
@@ -20,7 +22,7 @@ NumpadDot::DoAction("Toggle Desktop Blur")
 NumpadAdd::DoAction("Browser Volume Up")
 NumpadSub::DoAction("Browser Volume Down")
 
-NumpadEnter::DoAction("Change Voice")
+NumpadEnter::DoAction("Toggle Camera")
 
 #=::resizeWindow(WinGetID("A")) ; [Win]+[=]
 
