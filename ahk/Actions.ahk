@@ -11,10 +11,8 @@ DoAction(action)
 
 Numpad0::DoAction("Switch to Pause Scene")
 Numpad1::DoAction("Switch to Desktop Scene")
-Numpad2::DoAction("Switch to Desktop Full Scene")
-Numpad3::DoAction("Switch to Camera Scene")
-Numpad4::DoAction("Switch to Game Scene")
-Numpad5::DoAction("Switch to Game 4:3 Scene")
+Numpad2::DoAction("Switch to Camera Scene")
+Numpad3::DoAction("Switch to Game Scene")
 Numpad9::DoAction("Switch to End Scene")
 
 NumpadDot::DoAction("Toggle Desktop Blur")
