@@ -2,11 +2,11 @@
 
 DoAction(action)
 {
-	body := '{"action": {"name": "' action '"}}'
+    body := '{"action": {"name": "' action '"}}'
 
-	oHttp := ComObject("WinHttp.Winhttprequest.5.1")
-	oHttp.open("POST","http://127.0.0.1:7474/DoAction")
-	oHttp.send(body)
+    oHttp := ComObject("WinHttp.Winhttprequest.5.1")
+    oHttp.open("POST","http://127.0.0.1:7474/DoAction")
+    oHttp.send(body)
 }
 
 Numpad0::DoAction("Switch to Pause Scene")
