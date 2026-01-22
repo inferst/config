@@ -1,6 +1,10 @@
 /*
+
 !.gitignore
 !/kitty
 !/lf
-!/annepro2
 !/linearmouse
+
+!/zed
+/zed/*
+!/zed/*.json
