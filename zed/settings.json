@@ -7,15 +7,44 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "ui_font_size": 18,
-  "buffer_font_size": 18,
-  "ui_font_family": "GohuFont uni14 Nerd Font Mono",
-  "buffer_font_family": "GohuFont uni14 Nerd Font Mono",
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Github Dark Colorblind",
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    },
+    "qwen-code": {
+      "type": "registry"
+    },
+    "codex-acp": {
+      "type": "registry"
+    },
+    "gemini": {
+      "type": "registry"
+    }
   },
+  "cursor_blink": false,
+  "diff_view_style": "split",
+  "ui_font_size": 18.0,
+  "buffer_font_size": 16.0,
+  "terminal": {
+    "font_size": 16.0
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "theme": "Kanagawa Dragon",
   "vim_mode": true,
-  ddd
 }
